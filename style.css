@@ -1,0 +1,55 @@
+body{   /*Aplica estilos de fuentes, color gradiente de fondo, margenes y padding al cuerpo principal de la pagina*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, red, yellow );
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+header{  /*Alinea el encabezado principal de la pagina al centro*/
+    text-align: center;
+}
+
+.active{ /*Pone de color rojo cuando se activa un menu*/
+    background-color: red;
+}
+
+ul{  /*Le da estilos a la lista desordenada del menu con margenes, padding, color de fondo, le quita las viñetas*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{  /*Manda a la izquierda las listas del menu*/
+    float: left;
+}
+li a{  /*Les da estilos a todos links del menu, los muestra en color blanco, bloque, al centro y les quita el subrayado*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover:not(.active){  /*Si el menu no esta activo lo pone de color negro al pasar el mouse por encima */
+    background-color: #111;
+}
+h1{   /*Le da estilo al encabezado principal de la pagina index, color de fondo negro, color de la letra roja, margen cero */
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color: red;
+
+}
+
+footer{  /*Le da estilo al pie de pagina de todo el sitio web, lo fija hasta el fondo de la misma con el ancho al cien, con fondo gris y color de la letra blanca al centro*/
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
+}

@@ -1,0 +1,42 @@
+
+.contenedor{
+    /*Dibuja la forma gris que contiene los inputs*/
+    background-color: #999;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}  
+
+
+input[type="text"],  /*Selecciona por atributo los inputs de tipo texto, email, combobox y area de texto y les asigna ancho, padding, margen, borde y los alinea parejos*/
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+input[type="submit"]{ /*Le da formato al boton submit para que este al mismo tamaño que los demas controles, ademas de color verde, todo el ancho, fuente blanca, margen, etc. */
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input:focus,textarea:focus,select:focus{ /*Le asigna a todos los controles un foco de color rojo claro */
+    background-color: rgb(243, 96, 96);         
+}
+
+input[type="submit"]:hover{ /*Le asigna un color verde claro al boton submit cuando se pasa el mouse por encima del mismo*/
+    background-color: rgb(21, 207, 64);
+} 

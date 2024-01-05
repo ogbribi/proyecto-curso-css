@@ -1,0 +1,29 @@
+.contenedor{   /*Se le da estilo al div tipo flexbox y se alinea al centro*/
+    display: flex;
+    justify-content: center;    
+}
+
+table{ /*Se le da formato a la tabla quitandole la linea doble, poniendole borde gris,color de fondo mas claro, tamaño de fuente, etc*/
+    border-collapse: collapse;
+    border: 2px solid grey;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: rgb(197, 197, 197);
+}
+th{  /* Se le da formata a los encabezados de la tabla, alineandolos a la izquierda, padding de 10, borde solido gris y fondo gris claro*/
+    text-align: left;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: rgb(110, 110, 110);    
+}
+td{ /*Le da formato a los renglones de la tabla con borde gris solido y un padding de 10px*/
+    border: 1px solid grey;
+    padding: 10px;    
+}
+h2{ /*Le da formato al titulo secundario con un margen de cero y padding de 20*/
+    margin: 0;
+    padding: 20px;
+}
+tr:hover{ /*Hace que cuando pasemos el mouse por los renglones de la tabla cambie de color a gris*/
+    background-color: rgb(255, 255, 255);
+}

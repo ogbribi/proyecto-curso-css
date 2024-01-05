@@ -1,0 +1,23 @@
+.delado{ /*Alinea el video al principio de la pantalla a la izquierda con un ancho automatico*/
+    float: left;
+    margin: 5px;
+    width: auto;
+}
+.centrado{ /*Centra todos los divs que contienen imagenes en un flex */
+    display: flex;
+    justify-content: center;
+}
+.galeria{ /*A cada div que contenga una imagen le asigna estilos de margen, borde, alinea a la izquierda y les da un ancho proporcional de un tercio*/
+    margin: 5px;
+    border: 1px solid grey;
+    float: left;
+    width: 33vw;
+}
+div.galeria img{ /*A cada imagen que este en la clase galeria de los div se les asigna una anchura del 100 y altura auro */
+    width: 100%;
+    height: auto;
+}
+.descripcion{  /*Alinea los textos de las imagenes y les pone un padding de 15px*/
+    padding: 15px;
+    text-align: center;
+}
